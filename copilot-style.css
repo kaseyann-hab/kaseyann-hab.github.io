@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: "Nawamo Wind", serif;
+    background-color: #faf8f3;
+    color: #333;
+    line-height: 1.8;
+}
+
+.hero {
+    background: url("hero.jpg") center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.products .item {
+    background: #fff;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #7aa36f;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e8e4d9;
+}
