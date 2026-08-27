@@ -48,7 +48,7 @@ footer {
 /* かせや山野草園のゆらぎアニメーション */
 .yuragi-title {
     display: inline-block;
-    animation: yuragi 3s ease-in-out infinite;
+    animation: yuragi 1.5s ease-in-out infinite;
     transform-origin: center;
 }
 
