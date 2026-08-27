@@ -45,3 +45,18 @@ footer {
     padding: 20px;
     background: #e8e4d9;
 }
+/* かせや山野草園のゆらぎアニメーション */
+.yuragi-title {
+    display: inline-block;
+    animation: yuragi 3s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes yuragi {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(1.2deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(-1.2deg); }
+    100% { transform: rotate(0deg); }
+}
+
