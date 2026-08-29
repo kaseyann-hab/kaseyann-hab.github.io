@@ -51,6 +51,11 @@ footer {
     animation: yuragi 1.5s ease-in-out infinite;
     transform-origin: center;
 }
+/* ここまでが他のCSS */
+
+.shipping-info li {
+    font-size: 1.3rem;
+}
 
 @keyframes yuragi {
     0%   { transform: rotate(0deg); }
@@ -59,7 +64,5 @@ footer {
     75%  { transform: rotate(-1.2deg); }
     100% { transform: rotate(0deg); }
 }
-.shipping-info li {
-    font-size: 1.3rem;
-}
+
 
